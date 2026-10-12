@@ -41,7 +41,7 @@ where g(n) is the real delay accumulated so far and h(n) is the straight-line di
 
 The figure below shows the sample network (11 routers) with the paths both algorithms returned for a single packet from S to D.
 
-![Sample topology — A* (teal) finds the true shortest path; GBFS (orange) commits to the router nearest the goal by straight-line distance and ignores that the R2–R5–R8 links are slow.](topology.png)
+![Sample topology — A* (teal) finds the true shortest path; GBFS (orange) commits to the router nearest the goal by straight-line distance and ignores that the R2–R5–R8 links are slow.](image.png)
 
 | Case | Algorithm | Path | Cost | Nodes expanded |
 |---|---|---|---|---|
